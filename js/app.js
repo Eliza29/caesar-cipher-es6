@@ -8,11 +8,8 @@ window.addEventListener('load', function() {
     let input = document.getElementById('formGroupInput');
     let phrase = input.value;
     if (phrase || isNaN(phrase)) {
-      console.log(phrase);
       let cipherText = document.getElementById('cipherText');
       cipherText.textContent = cipher(phrase);
-      
-      console.log(decipher(phrase));
     } 
   }  
   let buttonDecipher = document.getElementById('btn-decipher');
@@ -21,10 +18,8 @@ window.addEventListener('load', function() {
     let input = document.getElementById('formGroupInput');
     let phrase = input.value;
     if (phrase || isNaN(phrase)) {
-      console.log(phrase);
       let decipherText = document.getElementById('cipherText');
       decipherText.textContent = decipher(phrase);
-      console.log(decipher(phrase));
     } 
   } 
   // Creamos la funcion cipher para encriptar el mensaje
