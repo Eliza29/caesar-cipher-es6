@@ -1,3 +1,13 @@
+.image{
+    background-image: url('../assets/images/cifrado.jpg');
+    background-size: contain;
+    height: 100px;
+    background-position: bottom;
+    box-shadow: 9px 7px 10px -5px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .box-container{
     margin-top: 7%;   
 }
@@ -16,4 +26,5 @@ form{
     border-radius: 5px;
     background-color: white;
     padding: 4px 5px;
+    height: 35px;
 }
