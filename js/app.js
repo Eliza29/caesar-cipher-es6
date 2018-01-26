@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+window.addEventListener('load', (() => {
 // Cifrado Cesar
 // El usuario no podra ingresar un campo vacío o que contenga números
   
@@ -51,4 +51,4 @@ window.addEventListener('load', function() {
     }
     return decipherString;
   }
-});
+}));
