@@ -1,0 +1,19 @@
+.box-container{
+    margin-top: 7%;   
+}
+h1{
+    margin-bottom: 20px;
+}
+form{
+    border: 1px solid rgba(194, 208, 224, 0.596);
+    border-radius: 7px;
+    padding: 30px;
+    background: linear-gradient(to right, rgb(3, 49, 255) , rgba(28, 241, 170, 0.897));
+    box-shadow: 9px 10px 13px -5px;
+}
+.box-text{
+    border:1px solid rgba(194, 208, 224, 0.596);
+    border-radius: 5px;
+    background-color: white;
+    padding: 4px 5px;
+}
