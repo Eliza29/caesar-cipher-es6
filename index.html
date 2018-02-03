@@ -7,7 +7,7 @@
   <title>Cifrado Cesar</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,600|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Orbitron|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -15,23 +15,27 @@
   <div class="image"></div>
   <div class="container">
     <div class="row justify-content-center box-container">
-      <h1 class="text-center">Cifrado Cesar</h1>
-      <form class="col-sm-10">
-          <div class="form-group">
-              <label for="formGrouInput"class="text-white">Ingrese una palabra:</label>
-              <input type="text" class="form-control" id="formGroupInput" placeholder="palabra a codificar">
-            </div>
+      <div class="col-sm-5 main-text">
+        <h1 class="text-center">Cifrado Cesar</h1>
+        <p class="text-justify">En criptografía, el cifrado César, también conocido como cifrado por desplazamiento, es un tipo de cifrado por sustitución
+          en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones
+          más adelante en el alfabeto. </p>
+        <p>El programa pide una frase al usuario y devuelva el mismo mensaje encriptado según el algoritmo de Cifrado César
+           con el parámetro de desplazamiento de 33 espacios.</p>  
+      </div>
+      <form class="col-sm-5">
+        <div class="form-group">
+          <label for="formGrouInput" class="text-white">Ingrese una palabra:</label>
+          <input type="text" class="form-control" id="formGroupInput" placeholder="palabra a codificar">
+        </div>
         <div class="form-group">
           <p class="text-white">El texto codificado es:</p>
           <div class="box-text">
             <p id="cipherText"></p>
           </div>
-          <!-- <label for="exampleFormControlTextarea1">Example textarea</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> -->
         </div>
-        <button type="button" class="btn btn-dark" id="btn-cipher">cifrar</button>
-        <button type="button" class="btn btn-dark" id="btn-decipher">decifrar</button>
-
+        <button type="button" class="btn btn-light" id="btn-cipher">cifrar</button>
+        <button type="button" class="btn btn-light" id="btn-decipher">decifrar</button>
       </form>
     </div>
   </div>

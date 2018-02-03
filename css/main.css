@@ -7,19 +7,31 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(231, 231, 231);
 }
 .box-container{
-    margin-top: 7%;   
+    margin-top: 5%;
+    height: 450px; 
+    padding-top: 30px;
+    background-color: white;
+    border-radius:5px;
 }
 h1{
-    margin-bottom: 20px;
+    margin-bottom: 27px;
+    font-family: 'Orbitron', sans-serif;
 }
+.main-text{
+
+    margin-right: 27px;
+}
+
 form{
     border: 1px solid rgba(194, 208, 224, 0.596);
     border-radius: 7px;
     padding: 30px;
-    background: linear-gradient(to right, rgb(3, 49, 255) , rgba(28, 241, 170, 0.897));
+    background: linear-gradient(to right, rgb(8, 8, 8) , rgba(70, 67, 67, 0.952));
     box-shadow: 9px 10px 13px -5px;
+    height: 300px;
 }
 .box-text{
     border:1px solid rgba(194, 208, 224, 0.596);
