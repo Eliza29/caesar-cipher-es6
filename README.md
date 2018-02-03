@@ -13,8 +13,11 @@ con el parámetro de desplazamiento de **33 espacios hacia la derecha**
 1. Diagrama de flujo
 
 ![imagen](assets/images/diagramadeflujo.jpg)
+
 2. Archivo `app.js` para la funcionalidad.
+
 3. Archivo `index.html`.
+
 4. Archivo `main.css` para los estilos de la pagina.
 
 
